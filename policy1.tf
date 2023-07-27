@@ -22,5 +22,6 @@ resource oci_identity_policy resmgr_policy1 {
   statements = [
        "Allow group Administrators to inspect compartments in tenancy"
        ,"Allow group Administrators to read compartments in tenancy"
+       ,"Allow group Administrators to read buckets in tenancy"
       ]
 }
